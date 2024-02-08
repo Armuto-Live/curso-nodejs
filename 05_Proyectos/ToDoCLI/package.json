@@ -1,0 +1,16 @@
+{
+  "name": "todocli",
+  "version": "1.0.0",
+  "description": "Un TodoList básico desde CLI node",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "Armuto",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
