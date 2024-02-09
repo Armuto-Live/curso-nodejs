@@ -5,7 +5,10 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "devFile": "nodemon app-with-file.js",
+    "startFile": "node app-with-file.js"
   },
   "keywords": [],
   "author": "Armuto",
